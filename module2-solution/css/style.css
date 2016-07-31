@@ -1,0 +1,79 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    margin: 1em 0 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    text-align: center;
+    color: #fff;
+    padding: 0.2em 0;
+}
+
+section {
+    float: left;
+    padding: 0 1em 2em 1em;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    width: 12em;
+    border: 1px solid black;
+}
+
+p {
+    border: 1px solid black;
+    background-color: #bebfbf;
+    padding: 3em 1em 1em 1em;
+}
+
+#chicken {
+    background-color: #ecad4e;
+}
+
+#beef {
+    background-color: #eb3e96;
+}
+
+#sushi {
+    background-color: #2d94d6;
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+/********** Desktop **********/
+@media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+    }
+}
